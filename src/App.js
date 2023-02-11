@@ -1,4 +1,4 @@
-// import Home from "./components/Home";
+import Home from "./components/Home";
 import Records from "./components/Records";
 import Sidenav from "./components/Sidenav";
 
@@ -7,7 +7,7 @@ function App() {
     <div className="row g-2">
       <Sidenav />
       <Records />
-      {/* <Home/> */}
+      <Home/>
     </div>
   );
 }
