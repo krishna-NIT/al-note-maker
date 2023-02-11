@@ -23,17 +23,17 @@ function Records() {
         return TableData.map((data) => {
             return (
 
-                <tr className='p-1 h3'>
+                <tr className='p-1 fs-5 '>
                     {
                         column.map((v) => {
                             return <td>{data[v]}</td>
                         })
                     }
-                    <td className='p-4'>
-                        <button onClick={handleClick}>Original Text</button>
-                        <button onClick={handleClick}>PPT</button>
+                    <td className='p-4 d-flex justify-content-evenly'>
+                        <button onClick={handleClick} type="button" class="btn btn-primary mr-1">Original Text</button>
+                        <button onClick={handleClick} type="button" class="btn btn-primary">PPT</button>
                     </td>
-                </tr>
+                </tr >
             )
         })
     }
@@ -43,9 +43,10 @@ function Records() {
 
         <div className='col'>
             <div className='p-4 '>
-                <table className="table table-hover ">
-                    <thead>
-                        <tr className='h3 bg-warning'>{ThData()}</tr>
+                <table className="table table-hover table-bordered text-center">
+                    <thead className=''>
+                        <tr className=' bg-warning'>{ThData()}
+                            <td className='display-6'>Action</td></tr>
                     </thead>
                     <tbody>
                         {tdData()}
