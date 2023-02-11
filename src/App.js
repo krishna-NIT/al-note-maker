@@ -6,8 +6,10 @@ function App() {
   return (
     <div className="row g-2">
       <Sidenav />
-      <Records />
-      <Home/>
+      <div className="col">
+        <Records />
+        <Home />
+      </div>
     </div>
   );
 }
