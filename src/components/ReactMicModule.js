@@ -28,7 +28,7 @@ export default class Example extends React.Component {
 
   render() {
     return (
-      <div className='row'>
+      <div className=''>
         <ReactMic
           record={this.state.record}
           className={styles.sound_wave}
@@ -39,6 +39,9 @@ export default class Example extends React.Component {
           bitRate={256000}          // defaults -> 128000 (128kbps).  React-Mic-Gold only.
           sampleRate={96000}        // defaults -> 44100 (44.1 kHz).  It accepts values only in range: 22050 to 96000 (available in React-Mic-Gold)
           timeSlice={3000}
+          echoCancellation={true} // defaults -> false
+          // defaults -> false
+          noiseSuppression={true}
           backgroundColor="" />
         <div className="row p-2">
 
