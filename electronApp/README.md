@@ -1,0 +1,6 @@
+# scripter: smart notes making tool
+
+exciting stuff comming up...
+
+## build instructuons:
+to be documented...
