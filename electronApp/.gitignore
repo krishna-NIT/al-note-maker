@@ -1,0 +1,12 @@
+node_modules
+dist
+path.txt
+.DS_Store
+npm-debug.log
+scripts/
+videoOutput/*
+
+output/*
+build/*
+ffmpeg.exe
+*.zip
