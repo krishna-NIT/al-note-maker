@@ -23,7 +23,6 @@ A Desktop Application to generate smart notes from any multimedia streaming serv
 * Bootstrap
 * Node js
 * Python
-* Chromium
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
