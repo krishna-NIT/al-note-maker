@@ -26,11 +26,15 @@ In essence, the app is designed to help users efficiently process and condense v
 
 ### Built With
 
-* React js
-* Electron js
-* Bootstrap
-* Node js
-* Python
+*[![React][React.js]][React-url]
+
+*[![Electron][Electron.js]][Electron-url]
+
+*[![Bootstrap][Bootstrap]][Bootstrap-url]
+
+*[![Node][Node.js]][Node-url]
+
+*[![Python][Python]][Python-url]
 
 ## Library's Used:
 ![image](https://user-images.githubusercontent.com/83586546/221334974-e62b39a9-1d14-4d9b-8b39-e02287ce320c.png)
@@ -54,3 +58,15 @@ In essence, the app is designed to help users efficiently process and condense v
 An online class is a course conducted over the Internet. They are generally conducted through a learning management system over platform which support audio video streaming. You are required to create a desktop app which can run over any online multimedia platform such as google meet. The app should produce a ppt of the slides shown by the teacher at the end of class. Apart from ppt the app should also produce a text file which will be made up of words spoken by the teacher and students during the class.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Electron.js]:https://img.shields.io/badge/Electron-2B2E3A?style=for-the-badge&logo=electron&logoColor=9FEAF9
+[Electron-url]:https://www.electronjs.org/
+[Bootstrap]:https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]:https://getbootstrap.com/
+[Node.js]:https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
+[Node-url]:https://nodejs.org/en/
+[Python]:https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue
+[Python-url]:https://www.python.org/
